@@ -163,13 +163,13 @@ nav ul li a:hover, nav ul li a.active {
 
 /* Подключение реальных исторических изображений по прямым ссылкам */
 .img-rome { 
-    background-image: url('https://britishmuseum.org'); 
+    background-image: url('../img/Rome.jpg') !important;
 }
 .img-medieval { 
-    background-image: url('https://displate.com'); 
+    background-image: url('../img/Medival.png') !important; 
 }
 .img-rus { 
-    background-image: url('https://nicholaskotar.com'); 
+    background-image: url('../img/Rusi.jpg') !important; 
 }
 
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Chronos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Chronos</div>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="blog.html">Блог эпох</a></li>
+                <li><a href="contact.html" class="active">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container fade-in">
+        <h1 style="color: #d4af37; margin-bottom: 25px;">Обратная связь с архивариусом</h1>
+        <p>Если вы обнаружили в летописях неточность, нашли старинную рукопись или хотите предложить свой исторический очерк — отправьте свиток в наш Тайный Скрипторий.</p>
+        
+        <form id="historicalForm">
+            <input type="text" placeholder="Имя летописца" required>
+            <input type="email" placeholder="Голубиная почта (Email)" required>
+            <textarea placeholder="Текст вашего послания к хранителям архива..." rows="5" required></textarea>
+            <button type="submit">Запечатать свиток</button>
+        </form>
+    </div>
+
+    <footer><p>&copy; 2026 Исторический проект «Chronos».</p></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

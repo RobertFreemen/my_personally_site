@@ -132,7 +132,7 @@ nav ul li a:hover, nav ul li a.active {
 /* Фоновые изображения для исторических эпох */
 .image-placeholder {
     width: 100%;
-    height: 180px;
+    height: 200px; /* Фиксированная высота, чтобы блок не сжимался */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,10 +140,21 @@ nav ul li a:hover, nav ul li a.active {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    color: #d4af37;
+    color: #d4af37 !important; /* Золотой цвет текста */
     text-transform: uppercase;
     letter-spacing: 1px;
-    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Черная тень под текстом, чтобы он читался на любом фоне */
+}
+
+/* Подключение реальных исторических изображений по прямым ссылкам */
+.img-Rome { 
+    background-image: url('../img/Rome.jpg') !important;
+}
+.img-Medieval { 
+    background-image: url('../img/Medival.png') !important; 
+}
+.img-Rusi { 
+    background-image: url('../img/Rusi.jpg') !important; 
 }
 
 /* Накладываем небольшое темное затенение поверх картинок, чтобы текст на них читался идеально */
@@ -159,17 +170,6 @@ nav ul li a:hover, nav ul li a.active {
     position: relative;
     z-index: 2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-/* Подключение реальных исторических изображений по прямым ссылкам */
-.img-rome { 
-    background-image: url('../img/Rome.jpg') !important;
-}
-.img-medieval { 
-    background-image: url('../img/Medival.png') !important; 
-}
-.img-rus { 
-    background-image: url('../img/Rusi.jpg') !important; 
 }
 
 

@@ -163,13 +163,13 @@ nav ul li a:hover, nav ul li a.active {
 
 /* Локальные пути к вашим скачанным файлам в папке img */
 .img-rome { 
-    background-image: url('../img/rome.jpg') !important; 
+    background-image: url('../img/Rome.jpg') !important; 
 }
 .img-medieval { 
-    background-image: url('../img/medieval.jpg') !important; 
+    background-image: url('../img/Medival.png') !important; 
 }
 .img-rus { 
-    background-image: url('../img/rus.jpg') !important; 
+    background-image: url('../img/Rusi.jpg') !important; 
 }
 
 .card-content {

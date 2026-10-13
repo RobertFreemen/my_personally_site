@@ -79,16 +79,17 @@ nav ul li a:hover, nav ul li a.active {
     margin-bottom: 15px;
 }
 
+/* Статистика */
 .stats-container {
     display: flex;
-    justify-content: center; /* Выравнивает всю группу элементов по центру */
-    gap: 60px; /* Задает фиксированный красивый отступ между показателями */
+    justify-content: space-around;
     margin: 40px 0;
     background: #241c15;
     padding: 30px;
     border-radius: 8px;
     border: 1px solid #3d2f23;
 }
+
 
 .stat-item {
     text-align: center;
